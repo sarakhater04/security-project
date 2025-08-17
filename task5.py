@@ -30,6 +30,7 @@ def detect_keyloggers():
                         suspicious_found = True
             except (psutil.AccessDenied, psutil.NoSuchProcess):
                 continue
+            
 
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue

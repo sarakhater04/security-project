@@ -8,8 +8,8 @@ COMMON_PORTS = {80, 443, 53, 22, 25, 110, 143}
 
 # Dummy suspicious IP list (you can expand this)
 SUSPICIOUS_IPS = {
-    "123.45.67.89",  # example suspicious IP
-    "185.220.101.1"  # known TOR exit node (example)
+    "123.45.67.89", 
+    "185.220.101.1"  # known TOR exit node 
 }
 
 def is_public_ip(ip):
